@@ -1,0 +1,85 @@
+#body1{
+    background-image: url("yacht.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    color: blue;
+    font-family: Tagesschrift;
+}
+p{
+    color: rgb(5, 5, 2);
+    font-family: sans-serif;
+    background-color: rgb(212, 139, 28);
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: wavy underline;
+    font-size: 20px;
+}
+h3{
+    border-style: dashed;
+    border-width: 3.8px;
+    border-color: orange;
+    border-radius: 6px;
+    padding: 3.8px; 
+    background: linear-gradient(to right,skyblue, yellow);
+    background-repeat: no-repeat;
+}
+h4{
+    border-left-style: dotted;
+    border-right-style: dotted;
+    border-top-style:double;
+    border-left-color: blue;
+    border-right-color: rgb(0, 255, 13);
+    border-top-color: rgb(255, 0, 0);
+    border-bottom-style:dashed;
+    border-width: 3.5px;
+}
+#box1{
+    border: 5px dotted blue;
+    width: 400px;
+    height: 250px;
+    font-size: 22px;
+    background-color: greenyellow;
+    padding: 10px;
+   
+    margin: 20px;
+}
+#box2{
+    border: 5px dashed gold;
+    width: 400px;
+    height: 250px;
+    font-size: 22px;
+    background-color: orangered;
+    
+    margin-left: 450px;
+}
+#city-pic{
+    /* center the image using margins*/
+    margin-left: 480px;
+    border-radius: 20px;
+}
+/*Pseudo Classes*/
+a:link{ /*all links*/
+    color: blue;
+}
+a:visited{ /*all visited links*/
+    color: red;
+}
+a:hover{/*link with cursor on it*/
+    color: purple;
+}
+a:active{ /*active cursor link*/
+    color: darkorange;
+}
+button{
+    color: brown;
+}
+button:hover{/*button with cursor on it*/
+    background-color: darkgray;
+}
+button:active{/*active cursor button*/
+    background-color: white;
+}
