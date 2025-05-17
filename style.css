@@ -84,6 +84,6 @@ button:active{/*active cursor button*/
     background-color: white;
 }
 #Head1{
-    color: chocolate;
+    text-shadow: rgb(156, 92, 47);
     background-color: rgb(32, 160, 235);
 }
